@@ -1,5 +1,4 @@
-body{
-  background: #14131A;
+body {
   color: #fff;
   font-family: 'Roboto', sans-serif;
 }
@@ -8,7 +7,7 @@ body{
   margin: auto;
 }
 
-.header{
+.header {
   display: flex;
   align-items: center;
   padding-top: 40px;
@@ -20,7 +19,7 @@ body{
   margin-right: 50px;
 }
 
-.nav-menu{
+.nav-menu {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -30,23 +29,23 @@ body{
 .nav-menu-item {
   margin-right: 30px;
 }
-.nav-menu-link{
+.nav-menu-link {
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
 }
 
-.logo-image{
+.logo-image {
   width: 46px;
   height: 71px;
 }
-.film-date{
+.film-date {
   display: block;
   font-size: 24px;
   line-height: 28px;
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 38px; 
 }
-.film-description{
+.film-description {
   margin-top: 40px;
   max-width: 426px;
   font-size: 16px;
@@ -66,18 +65,27 @@ body{
   vertical-align: middle;
 }
 
-.button-text{
+.button-text {
   font-size: 14px;
   line-height: 16px;
   margin-left: 10px;
 }
-.button-primary{
+.button-primary {
   color: #8D0019;
   background-color: #fff;
 }
-.button-link{
+.button-link {
   color: #fff;
 }
-.button-group{
+.button-group {
   margin-top: 70px;
+}
+.venom {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.blood {
+  background: url('../src/img/blood.png') no-repeat top right,
+ #14131A url('../src/img/background.jpg') no-repeat center center / 100%;
 }
