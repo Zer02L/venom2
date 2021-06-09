@@ -86,6 +86,6 @@ body {
   right: 0;
 }
 .blood {
-  background: url('../src/img/blood.png') no-repeat top right,
- #14131A url('../src/img/background.jpg') no-repeat center center / 100%;
+  background: url('../img/blood.png') no-repeat top right,
+ #14131A url('../img/background.jpg') no-repeat center center / 100%;
 }
