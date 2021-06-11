@@ -7,3 +7,7 @@ menuButton.addEventListener('click', () => {
   menuCloseButton.classList.add("is-active");
 });
 
+menuCloseButton.addEventListener('click', () => {
+  menu.classList.remove("is-active");
+  menuCloseButton.classList.remove("is-active");
+});

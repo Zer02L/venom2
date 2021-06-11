@@ -260,8 +260,9 @@ img {
   }
   .menu-close {
     position: fixed;
+    opacity: 0;
     right: 25px;
-    top: 25px;
+    top: 65px;
     display: flex;
     align-items: center;
     z-index: 10;
@@ -273,6 +274,7 @@ img {
   }
   .is-active {
     transform: translateX(0);
+    opacity: 1;
   }
   .menu-close-text {
     margin-right: 10px;
